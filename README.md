@@ -5,3 +5,5 @@ creer un fichier vide index.html dans le dépot local
 add
 commit
 push
+
+copier contenu texte de la page : 
