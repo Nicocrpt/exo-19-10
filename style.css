@@ -3,8 +3,19 @@ body {
     align-content: center;
     margin: auto;
     width: 70%;
+    min-height: 100vh;
+    display: flex;
+    
 }
 
+header {
+    padding: 10px;
+}
+
+main {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
 h1 {
     color: rgb(2, 63, 148);
     margin: 20px;
