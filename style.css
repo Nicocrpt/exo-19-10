@@ -1,6 +1,10 @@
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color: rgb(254, 251, 247);
+}
+
+.page {
+    
     align-content: center;
     margin: auto;
     width: 80%;
