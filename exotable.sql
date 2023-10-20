@@ -17,6 +17,15 @@ SHOW TABLES ;
 
 DESCRIBE listfilm ;
 
+
+
 INSERT INTO listfilm (titre, prenom_realisateur, nom_realisateur, genre_film, annee_de_sortie, synopsis)
-VALUE ('avatar', 'james', 'cameron', 'action_aventure', 2009, 'sur la planète pandora, un conflit entre envahisseurs humains et autochtones');
+VALUE ('avatar', 'james', 'cameron', 'action/aventure', 2009, 'sur Pandora, Conflit entre envahisseurs humains et indigènes');
+
+INSERT INTO listfilm (titre, prenom_realisateur, nom_realisateur, genre_film, annee_de_sortie, synopsis)
+VALUE ('Blade Runner 2049', "Denis", "Villeneuve", 'SF/Thriller', 2017, 'Dans ce monde futuriste, la traque aux replicants continue'),
+('Babylon', 'Damien', 'Chazelle', 'Biopic', 2022, 'film burlesque sur la transition du cinéma muet à parlant');
+
+
+SELECT * FROM listfilm ;
 
